@@ -1,0 +1,223 @@
+<!-- 
+  1. Chạy 1 chương trình html đầu tiên
+  2. Học về khái niệm và các thẻ cơ bản, cấu trúc file html
+  3. Xây dựng 1 website giới thiệu bản thân
+  4. HTML Self-closing tag
+  5. HTML semantic - Thẻ có ngữ nghĩa
+  6. Google Chrome developer tools
+
+  BTTH:
+  tạo trang giới thiệu bản thân.
+
+  Đọc thêm:
+  1. localhost
+  2. biến môi trường.
+  3. UI / UX
+
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lession 2</title>
+  </head>
+  <body>
+    <input type="text" placeholder="Tên đăng nhập" />
+    <textarea
+      name=""
+      id=""
+      cols="20"
+      rows="5"
+      placeholder="Nội dung tin nhắn"
+    ></textarea>
+    <input type="button" />
+    <input type="checkbox" />
+    <label>Email</label>
+    <input type="email" />
+    <input type="password" />
+    <input type="file" />
+    <input type="image" />
+    <input type="tel" />
+    <input type="reset" />
+    <input type="radio" />
+    <input type="time" />
+    <input type="date" />
+    <input type="datetime-local" />
+    <input type="submit" />
+    <header>Nội dung của đầu trang</header>
+    <!-- 
+      1. Khái niệm: HTML = HyperText Markup Language
+      (Ngôn ngữ đánh dấu siêu văn bản)
+      Bao gồm: video, pictures, audio, text...
+     -->
+
+    <h1>Xin chào cả lớp C4EJS-136</h1>
+    <!-- h - heading -->
+    <h2>Đây là nội dung thẻ h2</h2>
+    <h3>Đây là nội dung thẻ h2</h3>
+    <h4>Đây là nội dung thẻ h2</h4>
+    <h5>Đây là nội dung thẻ h2</h5>
+    <h6>Đây là nội dung thẻ h2</h6>
+    <div>
+      <!-- division - phân chia -->
+      Nội dung thẻ div
+    </div>
+    <p>
+      <!-- paragraph -->
+    </p>
+    <img src="./background.png" alt="anh minh hoa" width="320" />
+    <!-- src là 1 attribute của thẻ img 
+      src = source
+      -->
+
+    <section>
+      Kinh doanh
+      <div></div>
+    </section>
+    <section>Chính trị</section>
+
+    <ul>
+      <!-- unordered list -  -->
+      <li>Nguyễn Hoàng</li>
+      <!-- List item -->
+      <li>Khánh Nguyễn</li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+    <ol>
+      <!-- ordered list -->
+
+      <li>Nguyễn Hoàng</li>
+      <!-- List item -->
+      <li>Khánh Nguyễn</li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ol>
+
+    <nav>
+      <!-- navigator -->
+      <ul>
+        <li><a href="">Kinh tế</a></li>
+        <li><a href="">Giáo dục</a></li>
+        <li><a href="">Thể thao</a></li>
+        <li><a href="">Văn hoá</a></li>
+        <li><a href="">Giải trí</a></li>
+        <li>
+          <a href="https://mindx.edu.vn/en/adult-course" target="blank"
+            >MindX</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <img src="" alt="" />
+    <!-- Self-closing tag
+      img, br, hr, meta
+    -->
+    <!-- HTML tag có ngữ nghĩa (html-semantic) và không có ngữ nghiã (html-nonsemantic)-->
+    <!-- HTML Secmantic:
+      1. header
+      2. footer
+      3. nav
+      4. main
+      5. mark - highlight.
+      6. section
+      7. sumary - tóm tắt, tổng kết
+      8. details
+      9. aside
+      10. strong - key word, nhấn mạnh...
+      11. p - paragraph
+    -->
+
+    <!-- 
+      HTML non-semantic:
+      div, span, b...
+     -->
+
+    <p>
+      Đây là nội dung
+      <b>bôi đậm</b> -
+      <strong>bôi đậm</strong>
+    </p>
+
+    <p>Do not forget to buy <mark>milk</mark> today.</p>
+
+    <video width="320" controls>
+      <source
+        src="http://techslides.com/demos/sample-videos/small.mp4"
+        type="video/mp4"
+      />
+    </video>
+
+    <audio width="100" controls>
+      <source
+        src="http://techslides.com/demos/sample-videos/small.mp4"
+        type="video/mp4"
+      />
+    </audio>
+
+    <iframe
+      width="320"
+      height="200"
+      src="https://www.youtube.com/embed/j9mKZZu3ayo"
+      title="VinFast hoãn giao xe ô tô điện cho khách Mỹ đến cuối tháng 2 | VTC Now"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+
+    <table>
+      <tr>
+        <!-- tr = table row -->
+        <th>Company</th>
+        <!-- table heading -->
+        <th>Contact</th>
+        <th>Country</th>
+      </tr>
+      <tr>
+        <td>Alfreds Futterkiste</td>
+        <!-- table data -->
+        <td>Maria Anders</td>
+        <td>Germany</td>
+      </tr>
+      <tr>
+        <td>Centro comercial Moctezuma</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+      </tr>
+    </table>
+    <footer>Đây là nội dung cuối trang</footer>
+
+    <hr />
+
+    <form action="">
+      <label for="firstName">First Name</label>
+      <input type="text" name="firstName" />
+      <!-- type default value = text -->
+      <br />
+      <!-- br dùng để ngắt dòng -->
+      <label for="lastName">Last Name</label>
+      <input type="text" name="lasName" />
+
+      <!-- submit là một sự kiện - check validation nội dung của form -->
+    </form>
+  </body>
+</html>

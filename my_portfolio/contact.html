@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My contact</title>
+  </head>
+  <body>
+    <h1>My contact</h1>
+    <h2>My name is Nguyen Hoang</h2>
+    <img src="https://fakeimg.pl/100x100/?text=My avatar" />
+    <hr />
+    <!-- section form messenger: begin -->
+    <form action="./action.php">
+      <label for="email">Your email:</label>
+      <br />
+      <input type="email" placeholder="Your email" />
+      <br />
+      <label for="messenger">Messenger: </label>
+      <br />
+      <textarea
+        name=""
+        id=""
+        cols="30"
+        rows="10"
+        placeholder="Your messenger here!!!"
+      ></textarea>
+      <br />
+      <button>Submit</button>
+    </form>
+
+    <!-- table:
+    1. Tag table để vẽ bảng trên 1 trang web.
+    2. Trong thực tế ít dùng thẻ table vì:
+      1. Khó styling - tạo kiểu
+      2. Tăng dung lượng của source. -> trải nghiệm người dùng kém
+      3. Khó tương thích với nhiều kích thước màn hình khác nhau.
+    3. Khi nào thì bắt buộc dùng table?
+      1. Bảng có kích thước nhỏ
+      2. Trang chỉ dùng tại màn hình desktop (không phải màn hình mobile, table...)
+      3. Lý do đặc biệt bắt buộc không thể thay thế
+    -->
+    <!-- section form messenger: end -->
+
+    <!-- 
+      - Server cũng là một máy tính: lưu trữ code và tài nguyên của trang web.
+      - Khi người dùng request thì server tiếp nhận và trả về nội dung trang web hoặc báo lỗi.
+
+      Front end <-> Backend
+      UI/UX
+      User Interface / User Experience
+      1. User Interface
+        - Màu sắc, kính thước, sự dễ nhìn, sự rõ ràng mạch lạc, đơn giản hoặc thú vị, phong cách...
+        - Mức độ tương thích với các kích thước màn hình khác nhau.
+        dark mode / light mode
+      2. User Experience
+        - Không rõ nghĩa.
+        - Nút dễ click nhầm.
+        - Nút hay dùng thì lại để xa ngón tay
+        - Tốc độ tải trang. -> mất khách hàng
+        - 
+     -->
+  </body>
+</html>
