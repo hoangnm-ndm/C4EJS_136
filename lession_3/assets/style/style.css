@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: rgb(10, 105, 17);
+  color: rgba(10, 105, 17, 0.6);
+  color: #d30a0a;
+  font-size: 70px;
+  box-sizing: content-box;
+  /* value default */
+}
+
+/* 
+  text:
+  1. color
+  2. style: nghiêng/ đậm, mảnh, gạch chân.../
+*/
+
+h2 {
+  font-style: italic;
+  font-weight: 900;
+}
+
+h3 {
+  text-transform: capitalize;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  /* sans-serif la ho cua font */
+
+  font: 20px Roboto, sans-serif;
+  font: italic small-caps bold 12px/30px Roboto, serif;
+  /* small-caps - font variant */
+}
+
+/* styling thông qua tag */
+h3 {
+  background-color: #d30a0a;
+  border: 5px dotted blue;
+  margin: 20px;
+  /* top=right=bottom=left */
+  padding: 30px 30px 30px 30px;
+  /* top right bottom left */
+  padding: 20px 30px 10px;
+  /* top left=right bottom */
+  padding: 20px 40px;
+  /* top-bottom left=right */
+  border-style: solid;
+  border-color: aqua;
+  border-width: 10px;
+  border-radius: 5px 10px 15px 20px;
+  border-radius: 20px;
+  /* border-top-left-radius: ;
+  border-top-right-radius: ;
+  border-bottom-left-radius: ;
+  border-bottom-right-radius: ; */
+  /* shorthand */
+
+  box-shadow: rgb(40, 50, 50) 0px 20px 30px -10px;
+}
+
+/* div {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border: 1px solid red;
+  padding: 10px;
+} */
+
+.div-2 {
+  color: red;
+}
+
+#title {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  border-radius: 50% 50% 50% 50%;
+  padding: 30px;
+}
+
+/* .inline-ex {
+  background-color: yellow;
+  border: 1px solid red;
+  margin: 30px;
+  display: inline-block;
+} */
+
+.div-1 {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  margin: 10px;
+  border: 5px solid yellow;
+  box-sizing: content-box;
+  background-color: rebeccapurple;
+}
+
+.div-2 {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  margin: 10px;
+  border: 5px solid yellow;
+  box-sizing: border-box;
+  background-color: rebeccapurple;
+}

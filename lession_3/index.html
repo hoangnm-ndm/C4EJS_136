@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/style/style.css" />
+    <style></style>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- 
+      1. CSS - Khái niệm - done
+      2. Các cách styling cho HTML bằng CSS - done 
+        Inline
+        Internal - Embedded
+        External
+      3. Các thuộc tính phổ biến: font
+        font-size, font-weight, font-style, font-family...
+        shorthand of font:
+      done
+      , color, background, border…
+      4. Màu trong CSS - done
+        rgb, rgba, hex, name
+      5. Box-model -done
+      6. Các thành phần của box-model: content, padding, border, margin. - done
+      7. Đơn vị đo chiều dài trong CSS
+        Tương đối: %, em, rem (root em)
+        Tuyệt đối: px, in, pt, pc, mm, cm.....
+      8. Box-sizing - done
+        - content-box: lấy content làm căn cứ tính không gian chiếm dụng của element (sum = content)
+        - border-box: lấy border làm vụng tính không gian mà element chiếm dụng. (sum = content + padding + border)
+
+      9. HTML elements nội tuyến(inline). - done
+      10. Khái niệm block, inline, inline-block và cách nhận biết. - done
+      11. Sử dụng Chrome Developer Tool để debug. - Done
+      12. CSS Selectors cơ bản: tag, classes, id
+        - tag: h1-h6, div, nav, p, span....
+        - classes: description, title, sub-name...
+        - id: Có tính chất unique - nên chỉ dùng cho những select đặc biệt
+        
+      Tim hieu them:
+      1. box-shadow
+      2. Độ ưu tiên trong CSS.
+       
+     -->
+    <h1>Welcome to my portfolio!</h1>
+    <h2>My name is Hoang Nguyen</h2>
+    <hr />
+    <ol>
+      <li>đá bóng</li>
+      <li>code</li>
+      <li>ăn</li>
+    </ol>
+    <!-- <h3>tôi đến từ Trường học công nghệ MindX</h3> -->
+
+    <div>Noi dung cua the div 1</div>
+    <div class="div-2">Noi dung cua the div 2</div>
+    <div class="div-2">Noi dung cua the div 3</div>
+    <div>Noi dung cua the div 4</div>
+    <div>Noi dung cua the div 5</div>
+
+    <!-- 
+
+      Phân biệt inline, block, inline-block:
+
+      Block:
+      - Luôn bắt đầu bằng 1 dòng mới,
+      - chiếm 100% chiều rộng khả dụng
+      ex: div, p, section, header, footer, nav...
+
+      Inline - nội tuyến:
+      - không bắt đầu một dòng mới nếu còn không gian khả dụng
+      - chỉ chiếm không gian cần thiết để hiển thị
+      - không setting được width, height cho đối tượng.
+      - padding, margin không được tôn trọng
+      ex: b, strong, span, a, img
+
+      Inline-block:
+      - Không bắt đầu bằng 1 dòng mới,
+      - Mặc định chỉ chiếm dụng không gian cần thiết.
+      - Setting margin, padding, width, height
+     -->
+
+    <div id="title">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+      <span class="inline-ex">Aliquam ad officia</span>
+      temporibus nisi, numquam repellat dolorem cupiditate earum qui maiores?
+    </div>
+
+    <div class="div-1">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+      reiciendis quo repellendus voluptatibus quam debitis!
+    </div>
+
+    <div class="div-2">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+      reiciendis quo repellendus voluptatibus quam debitis!
+    </div>
+  </body>
+</html>
