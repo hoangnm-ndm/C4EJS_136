@@ -7,5 +7,88 @@
     <title>Lession 4</title>
     <link rel="stylesheet" href="./assets/style/style.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- 
+      1. CSS Selectors nâng cao
+      Bộ chọn đơn giản:
+        id, class, tag
+      Bộ chọn phức tạp:
+        .name1 .name2
+        .name1, name2
+        .name2.active
+        div > p : chon the p la CON TRUC TIEP cua div
+        p:not(.name) : chon moi phan tu p khong co class "name"
+
+        p::first-letter
+        p::first-line
+        :first-child >< last-child
+        nth-child(): có thể kết hợp odd, even...
+
+        :hover
+        
+      2. Độ ưu tiên trong CSS
+        3 quy ước:
+        1. Nếu so sánh các selectors cơ bản với nhau:
+        inline > id > class > tag
+        2. Nếu có sự phức tạp trong selectors:
+        Selector nào có độ cụ thể càng cao thì càng có điểm ưu tiên cao hơn.
+        3. Nếu độ cụ thể và bộ chọn giống nhau:
+        CSS viết sau sẽ ghi đè css viết trước.
+      3. !importtant
+        Mục đích: thay đổi tức thì độ ưu tiên css mặc định!
+        Nên sử dụng khi: muốn thay đổi thứ tự ưu tiên của css. Ví dụ như: fix bug, khi style cho một đối tượng quan trọng.
+      4. Làm thử một giao diện với figma, psd
+      5. Position
+        static : la gia tri mac dinh cua element, khong the set: top, right, left, bottom
+        relative: chi phu thuoc vao vi tri ban dau cua chinh doi tuong
+        absolute: phu thuoc vao vi tri cua doi tuong cha co thuoc tinh position
+        fixed: chi phu thuoc vao view-port
+        sticky: la su ket hop giua fixed va absolute
+      6. Flex-box
+        display: flex;
+        flex-direction:
+        justify-content:
+        align-items:
+
+      7. Git và github
+     -->
+
+    <div class="box-2">
+      <div class="box-item-2">Box item 1</div>
+      <!-- first-child -->
+      <div class="box-item-2">Box item 2</div>
+      <div class="box-item-2">Box item 3</div>
+      <div class="box-item-2">Box item 4</div>
+      <div class="box-item-2 active">Box item 5</div>
+    </div>
+
+    <!--  positon: begin -->
+    <div class="box-father">
+      <div class="box-son">Sale 40%</div>
+    </div>
+
+    <div class="onTop">
+      <button>Về đầu trang</button>
+    </div>
+
+    <!-- <header>
+      <ul>
+        <li><a href="">Trang chu</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </header> -->
+
+    <!--  positon: end -->
+
+    <!-- flex-box: begin -->
+    <div class="box">
+      <div class="box-item">Box item 1</div>
+      <div class="box-item">Box item 2</div>
+      <div class="box-item">Box item 3</div>
+      <div class="box-item">Box item 4</div>
+      <div class="box-item">Box item 5</div>
+    </div>
+    <!-- flex-box: end -->
+  </body>
 </html>

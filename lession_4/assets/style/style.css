@@ -1,0 +1,120 @@
+/* .box-item.active {
+  background-color: yellowgreen;
+} */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin-right: 0;
+}
+body {
+  height: 300vh;
+  position: relative;
+}
+
+.box-item,
+.box-second {
+  background-color: aqua;
+  border: 2px solid blue;
+}
+
+p::first-line {
+  font-size: 40px;
+  color: red;
+}
+
+/* .box-item:last-child {
+  background-color: yellow;
+} */
+
+/* .box-item:nth-child(odd) {
+  background-color: red;
+} */
+
+button {
+  background-color: red;
+  color: #fff;
+  padding: 8px 24px;
+  border: 1px solid red;
+  border-radius: 8px;
+  transition: ease-in-out 2s;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: red;
+}
+
+button {
+  background-color: blue;
+}
+
+.box-father {
+  background-color: aqua;
+  border: 2px solid brown;
+  padding: 8px;
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+.box-son {
+  background-color: red;
+  border: 2px solid blue;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  /* left: ;
+  bottom: ; */
+}
+
+.onTop {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+header {
+  background-color: yellow;
+  position: fixed;
+  top: 40px;
+  right: 0;
+  left: 0;
+  /* bottom: 0; */
+}
+
+.sticky {
+  background-color: red;
+  position: sticky;
+  top: 100px;
+  padding: 8px;
+  border: 1px solid brown;
+  z-index: 1000;
+}
+
+/* flex-box: begin */
+/* flexible box */
+.box {
+  border: 2px solid blue;
+  width: 600px;
+  height: 400px;
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  /* default value: row */
+  justify-content: center;
+  /* dieu chinh theo truc main */
+  align-items: flex-start;
+  /* dieu chinh theo truc cross */
+}
+
+.box-item {
+  border: 2px solid brown;
+  background-color: yellow;
+  width: 40px;
+  height: 40px;
+}
+/* flex-box: end */
