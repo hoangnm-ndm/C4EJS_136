@@ -1,0 +1,100 @@
+@import url(//db.onlinewebfonts.com/c/12420e8c141ca7c3dff41de2d59df13e?family=BeaufortforLOL-Bold);
+
+:root {
+  font-family: "BeaufortforLOL-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  --color-primary: #0e4c67;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+}
+
+.header__logo {
+  width: 240px;
+  height: auto;
+  margin: 32px auto;
+}
+
+.header__navbar {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 62px;
+}
+
+.header__navbar ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.header__navbar ul li a {
+  color: #000;
+  transition: all ease 0.5s;
+}
+
+.header__navbar ul li a:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.figures {
+  max-width: 1440px;
+  padding: 0 16px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  margin: 0 auto;
+}
+
+.figures figure {
+  max-width: 328px;
+  width: 300px;
+}
+
+.figures figcaption {
+  width: 100%;
+  background-color: var(--color-primary);
+  height: 80px;
+  line-height: 80px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: -6px;
+}
+
+.video {
+  width: 100%;
+  padding: 0 16px;
+  margin: 64px auto;
+  text-align: center;
+}
