@@ -43,6 +43,7 @@ img {
   width: 100%;
   max-width: 100%;
   margin-bottom: 62px;
+  padding: 0 32px;
 }
 
 .header__navbar ul {
@@ -70,7 +71,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   gap: 32px;
   margin: 0 auto;
@@ -97,6 +98,10 @@ img {
   padding: 0 16px;
   margin: 64px auto;
   text-align: center;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  /* padding-top: 56.25%; */
 }
 
 footer {
