@@ -1,27 +1,4 @@
-/**
- * Cho danh sách products như trong file data.js:
- * 1. In ra danh sách các sản phẩm có price >=50
- * 2. In ra danh sách các sản phẩm có đánh giá từ 4 trở lên. (dựa vào giá trị "rate")
- * 3. In ra danh sách các sản phẩm thuộc category: "women's clothing",
- * 4. In ra danh sách các category
- *    ex: categories = [ "men's clothing", "women's clothing", "jewelery"]
- * 6. Đếm xem có bao nhiêu sản phẩm thuộc từng loại categories.
- *    ex:
- *    products_by_type = [
-        {
-          "men's clothing": 10,
-        },
-        {
-          "women's clothing": 4,
-        },
-        {
-          jewelery: 5,
-        },
-      ];
-
- */
-
-const products = [
+export const products = [
   {
     id: 1,
     title: "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",

@@ -1,7 +1,5 @@
 /**
- * Viết một function  , chèn phần tử vào một vị trí bất kì trong mảng
- *
- *
+ * BT 1: Viết một function  , chèn phần tử vào một vị trí bất kì trong mảng
  */
 
 function insert(array, position, value) {
@@ -10,18 +8,18 @@ function insert(array, position, value) {
 
 var my_array = [10, -5, 6, 8, 7];
 
-console.log(insert(my_array, 1, 100));
+console.log(insert(my_array, 1, 100)); // [10, 100, -5, 6, 8, 7]
 console.log(insert(my_array, 5, 10000));
 console.log(insert(my_array, 0, 8888));
 
-// Viết một function, xóa một phần tử bất kì trong mảng
+//BT 2:  Viết một function, xóa một phần tử bất kì trong mảng
 function remove(array, position) {
   // noi dung code
 }
 my_array = [10, -5];
 console.log(remove(my_array, 1));
 
-// Cho mảng một chiều bao gồm các số nguyên, hãy viết hàm tính tổng các số chẵn trong mảng
+// BT 3: Cho mảng một chiều bao gồm các số nguyên, hãy viết hàm tính tổng các số chẵn trong mảng
 
 function sumOfEvenNumbers(array) {
   const sum = 0;
@@ -32,7 +30,7 @@ console.log(sumOfEvenNumbers([]));
 console.log(sumOfEvenNumbers([-1, 1, 2]));
 console.log(sumOfEvenNumbers([0, 9, 2, 8, 10, -6, 100]));
 
-// Viết một function, với dữ liệu đầu vào là một mảng một chiều ⇒ trả về một mảng mới bao gồm kiểu dữ liệu(data type) của từng phẩn tử trong mảng
+// BT 4: Viết một function, với dữ liệu đầu vào là một mảng một chiều ⇒ trả về một mảng mới bao gồm kiểu dữ liệu(data type) của từng phẩn tử trong mảng
 
 function arrayValuesTypes(array) {
   let new_array = [];
