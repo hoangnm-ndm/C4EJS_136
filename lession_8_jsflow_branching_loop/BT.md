@@ -62,7 +62,7 @@ rightAngledTriangle(6);
 
 ### Bài 1
 
-Viết một `**function Javascript**` để **tính cước điện thoại bàn** cho một hộ gia đình với đầu vào **`là số phút điện thoại`** mà gia đình đó đã sử dụng trong tháng vừa qua, biết rằng:
+Viết một function Javascript để tính cước điện thoại bàn cho một hộ gia đình với đầu vào là số phút điện thoại mà gia đình đó đã sử dụng trong tháng vừa qua, biết rằng:
 
 - Phí thuê bao bắt buộc là 25 nghìn.
 - 600 đồng cho mỗi gọi của 50 phút đầu tiên.
@@ -73,4 +73,4 @@ Viết một `**function Javascript**` để **tính cước điện thoại bà
 
 ### Bài 2
 
-Viết function Javascript ⇒ tính tổng các `số chẵn` từ 1 với `n` _(Gợi ý sử dụng vòng lặp)_
+Viết function Javascript ⇒ tính tổng các số chẵn từ 1 tới n nguyên dương.
