@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lession 10 - DOM, EVENTS</title>
+  </head>
+  <body>
+    <h2 id="heading-lession" title="Title-heading" class="heading-lession">
+      DOM , DOM Events
+    </h2>
+    <h2 class="heading-lession">DOM , DOM Events</h2>
+    <h2 class="heading-lession">DOM , DOM Events</h2>
+    <h2 class="heading-lession">DOM , DOM Events</h2>
+    <ol>
+      <li class="item item-1">Khái niệm, mô hình, thành phần</li>
+      <!-- 
+
+       -->
+      <li>HTML Element</li>
+      <!-- 
+        Select một node trong DOM qua:
+        1. ID (return 1 element), 
+        2. Class (return ra 1 HTMLCollection), 
+        3. Tag name (return ra 1 HTMLCollection), 
+        4. QuerySelector (return ra 1 element)
+        5. QuerySelectorAll (return ra 1 nodelist)
+        // Sự khác nhau giữa HTMLCollection và NodeList
+       -->
+      <li class="item item-3" title="HTML Attribute title">HTML Attribute</li>
+      <!-- 
+        nodeElement.attribute = value
+        setAttribute / getAttribute
+       -->
+      <li>HTML Collection</li>
+      <li>HTML Nodelist</li>
+      <li>HTML Styles</li>
+      <li>HTML Events</li>
+    </ol>
+
+    <!-- Một số bài toán sử dụng JS và DOM Events để xử lý:
+    1. Valadator form (login, input form, send mail, register, reset pass...)
+    2. Header changing by scoll
+    3. Scroll top button
+    4. Slideshows
+    5. Play music
+    6. Calculator
+
+    -->
+    <!-- Node HTML DOM !== Nodejs -->
+
+    <div onclick="sayHello()">Click me</div>
+    <input type="text" onchange="sayHello()" name="" id="" />
+    <button id="myBtn">Button</button>
+    <input type="text" id="myInput" />
+    <div id="myDiv">
+      <p id="myP">This is a paragraph</p>
+    </div>
+
+    <script>
+      function sayHello() {
+        alert("hello, world!");
+      }
+    </script>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
